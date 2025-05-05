@@ -12,15 +12,15 @@ export default function Home() {
           <img src="/images/imageAlimentação2.jpg" className="w-full h-full object-cover" />
           <img src="/images/imageNewPhase3.jpg" className="w-full h-full object-cover" />
           <div className= "h-40 flex items-center justify-center">
-      <button
-          className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-400 text-gray-800 font-bold text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-110 transition"
-          onClick={() => {
-            // Replace this with your own navigation logic
-            window.location.href = '/your';
-          }}
-        >
-          baixe sua amostra E-BOOK GRATIS
-        </button>
+          <a
+            href="https://drive.google.com/file/d/1eM5xu7UVkPmm0ck67XbC01t6dW_ob6G9/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-400 text-gray-800 font-bold text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-110 transition inline-block text-center"
+          >
+            baixe sua amostra E-BOOK GRATIS
+          </a>
+
         </div>
           <img src="/images/imageSet1.jpg" className="w-full h-full object-cover" />
           <img src="/images/imageSet2.jpg" className="w-full h-full object-cover" />
@@ -32,7 +32,7 @@ export default function Home() {
 
       {/* Rose pink link section */}
       <div className="w-full h-32 flex items-center justify-center bg-gray-950">
-        <Link href="/your-link" className="text-[#f7879A] text-3xl font-semibold underline">
+        <Link href="https://pay.kiwify.com.br/oIxIhMX" className="text-[#f7879A] text-3xl font-semibold underline">
           Quero meu ebook
         </Link>
       </div>
@@ -50,7 +50,7 @@ export default function Home() {
           className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-400 text-gray-800 font-bold text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-110 transition"
           onClick={() => {
             // Replace this with your own navigation logic
-            window.location.href = '/your-destination';
+            window.location.href = 'https://pay.kiwify.com.br/pAXiNvV';
           }}
         >
           Quero meu combo premium
@@ -65,7 +65,7 @@ export default function Home() {
           className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-400 text-gray-800 font-bold text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-110 transition"
           onClick={() => {
             // Replace this with your own navigation logic
-            window.location.href = '/your';
+            window.location.href = 'https://pay.kiwify.com.br/pAXiNvV';
           }}
         >
           comprar AGORA MEUS E-BOOKS
