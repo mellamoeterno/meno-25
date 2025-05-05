@@ -8,6 +8,20 @@ export default function Home() {
     <div className="w-full flex flex-col items-center justify-center">
       {/* Images 1 to 4 */}      
         <div>
+          <img src="/images/imageWoman1.jpg" className="w-full h-full object-cover" />
+          <img src="/images/imageAlimentação2.jpg" className="w-full h-full object-cover" />
+          <img src="/images/imageNewPhase3.jpg" className="w-full h-full object-cover" />
+          <div className= "h-40 flex items-center justify-center">
+      <button
+          className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-400 text-gray-800 font-bold text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-110 transition"
+          onClick={() => {
+            // Replace this with your own navigation logic
+            window.location.href = '/your';
+          }}
+        >
+          baixe sua amostra E-BOOK GRATIS
+        </button>
+        </div>
           <img src="/images/imageSet1.jpg" className="w-full h-full object-cover" />
           <img src="/images/imageSet2.jpg" className="w-full h-full object-cover" />
           <img src="/images/imageSet3.jpg" className="w-full h-full object-cover" />
