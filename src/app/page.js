@@ -32,7 +32,7 @@ export default function Home() {
 
       {/* Rose pink link section */}
       <div className="w-full h-32 flex items-center justify-center bg-gray-950">
-        <Link href="https://pay.kiwify.com.br/oIxIhMX" className="text-[#f7879A] text-3xl font-semibold underline">
+        <Link href="https://pay.kiwify.com.br/oIxIhMX" className="text-[#ffcf40] text-3xl font-semibold underline">
           Quero meu ebook
         </Link>
       </div>
