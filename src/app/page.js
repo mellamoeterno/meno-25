@@ -18,7 +18,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-400 text-gray-800 font-bold text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-110 transition inline-block text-center"
           >
-            baixe sua amostra E-BOOK GRATIS
+            Baixe sua amostra E-BOOK GRÁTIS
           </a>
 
         </div>
@@ -68,7 +68,7 @@ export default function Home() {
             window.location.href = 'https://pay.kiwify.com.br/pAXiNvV';
           }}
         >
-          comprar AGORA MEUS E-BOOKS
+          Comprar AGORA MEUS E-BOOKS
         </button>
         </div>
       </div>
