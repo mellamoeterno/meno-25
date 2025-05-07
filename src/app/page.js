@@ -8,21 +8,27 @@ import Script from 'next/script';
 export default function Home() {
   return (
     <div className="w-full flex flex-col items-center justify-center">
+      <>
       <Script
-  id="mcjs"
-  strategy="afterInteractive"
-  dangerouslySetInnerHTML={{
-    __html: `
-      !function(c,h,i,m,p){
-        m=c.createElement(h),
-        p=c.getElementsByTagName(h)[0],
-        m.async=1,
-        m.src=i,
-        p.parentNode.insertBefore(m,p)
-      }(document,"script","https://chimpstatic.com/mcjs-connected/js/users/7f8eb8ea8bee7abfd177c6822/ac318314b371f9cc8b575433e.js");
-    `
-  }}
-/>
+        id="mcjs"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            !function(c,h,i,m,p){
+              m=c.createElement(h),
+              p=c.getElementsByTagName(h)[0],
+              m.async=1,
+              m.src=i,
+              p.parentNode.insertBefore(m,p)
+            }(document,"script","https://chimpstatic.com/mcjs-connected/js/users/7f8eb8ea8bee7abfd177c6822/ac318314b371f9cc8b575433e.js");
+          `
+        }}
+      />
+      <div className="w-full flex flex-col items-center justify-center">
+        {/* your images and content here */}
+      </div>
+    </>
+
       {/* Images 1 to 4 */}      
         <div>
           <img src="/images/imageWoman1.jpg" className="w-full h-full object-cover" />
