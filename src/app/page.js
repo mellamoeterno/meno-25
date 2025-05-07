@@ -2,10 +2,27 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Script from 'next/script';
+
 
 export default function Home() {
   return (
     <div className="w-full flex flex-col items-center justify-center">
+      <Script
+  id="mcjs"
+  strategy="afterInteractive"
+  dangerouslySetInnerHTML={{
+    __html: `
+      !function(c,h,i,m,p){
+        m=c.createElement(h),
+        p=c.getElementsByTagName(h)[0],
+        m.async=1,
+        m.src=i,
+        p.parentNode.insertBefore(m,p)
+      }(document,"script","https://chimpstatic.com/mcjs-connected/js/users/7f8eb8ea8bee7abfd177c6822/ac318314b371f9cc8b575433e.js");
+    `
+  }}
+/>
       {/* Images 1 to 4 */}      
         <div>
           <img src="/images/imageWoman1.jpg" className="w-full h-full object-cover" />
@@ -72,6 +89,12 @@ export default function Home() {
         </button>
         </div>
       </div>
+      <div className="w-full h-32 flex items-center justify-center bg-gray-950">© 2025 MkSOU. Todos os direitos reservados.
+        Este e-book é um material informativo, com foco em autocuidado e bem-estar durante a menopausa. Ele não substitui orientação médica ou tratamento profissional.
+        Venda e entrega realizadas com segurança pela plataforma Kiwify  - Seu pagamento é 100% seguro.
+        Dúvidas, sugestões ou suporte: ecommercmkssouza@gmail.com
+        Endereço: QI 15, CEP 72135-150
+     </div>
     </div>
   );
 }
