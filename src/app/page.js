@@ -29,20 +29,24 @@ export default function Home() {
       </div>
     </>
 
-      {/* Images 1 to 4 */}      
+      {/* Images */}      
         <div>
+          <img src="/images/e1.jpg" className="w-full h-full object-cover" />
+          <img src="/images/e2.jpg" className="w-full h-full object-cover" />
+          <img src="/images/e3.jpg" className="w-full h-full object-cover" />
+          <img src="/images/e4.jpg" className="w-full h-full object-cover" />
+          <img src="/images/e5.jpg" className="w-full h-full object-cover" />
+          <img src="/images/e6.jpg" className="w-full h-full object-cover" />
           <img src="/images/imageWoman1.jpg" className="w-full h-full object-cover" />
           <img src="/images/imageAlimentação2.jpg" className="w-full h-full object-cover" />
           <img src="/images/imageNewPhase3.jpg" className="w-full h-full object-cover" />
-          <div className= "h-40 flex items-center justify-center">
-          <a
-            href="https://drive.google.com/file/d/1eM5xu7UVkPmm0ck67XbC01t6dW_ob6G9/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-400 text-gray-800 font-bold text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-110 transition inline-block text-center"
-          >
-            Baixe sua amostra E-BOOK GRÁTIS
-          </a>
+          <div className= "h-40 flex items-center justify-center">                  
+         <Link href="/email">
+          <button className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-400 text-gray-800 font-bold text-lg px-6 py-3 rounded-lg shadow-md 
+            hover:brightness-110 transition inline-block text-center">
+            Quero meu E-BOOK GRÁTIS
+          </button>
+        </Link>
 
         </div>
           <img src="/images/imageSet1.jpg" className="w-full h-full object-cover" />
@@ -56,18 +60,17 @@ export default function Home() {
       {/* Rose pink link section */}
       <div className="w-full h-32 flex items-center justify-center bg-gray-950">
         <Link href="https://pay.kiwify.com.br/oIxIhMX" className="text-[#ffcf40] text-3xl font-semibold underline">
-          Quero meu ebook
+          Quero meu ebook 
         </Link>
       </div>
 
-      {/* Images 5 and 6 */}
+      {/* Images */}
         <div>
         <img src="/images/imageSet5.jpg" className="w-full h-full object-cover" />
         <img src="/images/imageSet6.jpg" className="w-full h-full object-cover" />
         </div>
       
 
-      {/* Gold effect button section */}
       <div className="w-full h-30 flex items-center justify-center bg-black">
         <button
           className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-400 text-gray-800 font-bold text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-110 transition"
@@ -80,7 +83,7 @@ export default function Home() {
         </button>
       </div>
 
-      {/* Image 7 */}
+      {/* Image */}
       <div>
       <img src="/images/imageSet7.jpg" className="w-full h-full object-cover" />
       <div className= "h-40 flex items-center justify-center">
