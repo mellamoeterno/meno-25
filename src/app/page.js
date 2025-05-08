@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="w-full flex flex-col items-center justify-center">     
       {/* Images */}      
-        <div>
+      <div>
           <img src="/images/imageWoman1.jpg" className="w-full h-full object-cover" />
           <img src="/images/e6.jpg" className="w-full h-full object-cover" />          
           <img src="/images/e3.jpg" className="w-full h-full object-cover" />
@@ -31,7 +31,6 @@ export default function Home() {
         <button
           className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-400 text-gray-800 font-bold text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-110 transition"
           onClick={() => {
-            // Replace this with your own navigation logic
             window.location.href = 'https://pay.kiwify.com.br/oIxIhMX';
           }}
         >
@@ -43,29 +42,25 @@ export default function Home() {
         <button
           className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-400 text-gray-800 font-bold text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-110 transition"
           onClick={() => {
-            // Replace this with your own navigation logic
             window.location.href = 'https://pay.kiwify.com.br/oIxIhMX';
           }}
         >
           Quero meu E-book MÓDULO 2
         </button>
-          </div>
-            {/* Replace background or insert <img /> inside as needed */}          
-          </div>
-            {/* Rose pink link section */}            
+           </div>                     
+      </div>          
             {/* Images */}
           <div>
           <img src="/images/imageSet5.jpg" className="w-full h-full object-cover" />
           <img src="/images/e2.jpg" className="w-full h-full object-cover" />
           </div>      
             {/* Image */}
-    <div>
+      <div>
       <img src="/images/combo.jpg" className="w-full h-full object-cover" />
        <div className="w-full h-30 flex items-center justify-center bg-fuchsia-300">
         <button
           className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-400 text-gray-800 font-bold text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-110 transition"
           onClick={() => {
-            // Replace this with your own navigation logic
             window.location.href = 'https://pay.kiwify.com.br/pAXiNvV';
           }}
         >
@@ -77,7 +72,6 @@ export default function Home() {
             <button
                 className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-400 text-gray-800 font-bold text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-110 transition"
                 onClick={() => {
-                  // Replace this with your own navigation logic
                   window.location.href = 'https://pay.kiwify.com.br/pAXiNvV';
                 }}
               >
