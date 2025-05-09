@@ -79,17 +79,27 @@ export default function Home() {
               </button>
           </div>
       </div>
-        <div className="w-full h-60 flex items-center justify-center bg-gray-950 font-bold text-lg px-6 py-3 rounded-lg shadow-md 
-              hover:brightness-110 transition text-center">
+        <div className="w-full h-60  bg-gray-950">
         </div>
-        <div className="w-full h-60 flex items-center justify-center bg-gray-950 font-bold text-lg px-6 py-3 rounded-lg shadow-md 
-              hover:brightness-110 transition text-center"> © 2025 MkSOU. Todos os direitos reservados.
-          Este e-book é um material informativo, com foco em autocuidado e bem-estar durante a menopausa. Ele não substitui orientação médica ou tratamento profissional.         
-          Venda e entrega realizadas com segurança pela plataforma Kiwify  - Seu pagamento é 100% seguro.
+         <div className=" h-60 bg-gray-950 font-bold text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-110 transition text-center">
+            © 2025 MKSOU. Todos os direitos reservados.
+            <br />
+            Este e-book é um material informativo, com foco em autocuidado e bem-estar durante a menopausa. Ele não substitui orientação médica ou tratamento profissional.
+            <br />
+            Venda e entrega realizadas com segurança pela plataforma 
+            <a 
+              href="https://ajuda.kiwify.com.br/pt-br/article/o-que-e-a-kiwify-como-funciona-un717r/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-blue-400 underline hover:text-blue-600"
+            >
+              {" "}Kiwify
+            </a> 
+             – Seu pagamento é 100% seguro.
         </div>
       <div className = "h-20">
           <h1>Dúvidas, sugestões ou suporte: ecommercmkssouza@gmail.com
-          Endereço: QI 15, CEP 72135-150
+              Endereço: QI 15, CEP 72135-150
           </h1>
       </div>
     </div>
