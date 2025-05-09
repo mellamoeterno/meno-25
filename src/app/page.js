@@ -15,7 +15,7 @@ export default function Home() {
           <img src="/images/e3.jpg" className="w-full h-full object-cover" />
           <img src="/images/imageNewPhase3.jpg" className="w-full h-full object-cover" /> 
           <div className= "h-40 flex items-center justify-center">
-            <Link href="https://drive.google.com/file/d/14WxGsejZ5voyvTh6jUvWVnHVQKvL64Dx/view?usp=sharing">
+            <Link href="collect">
                 <button className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-400 text-gray-800 font-bold text-lg px-6 py-3 rounded-lg shadow-md 
                   hover:brightness-110 transition inline-block text-center">
                   Quero meu E-BOOK GRÁTIS
