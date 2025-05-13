@@ -8,18 +8,37 @@ export default function CollectEmailPage() {
   const [error, setError] = useState('');
   const router = useRouter();
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+ const handleSubmit = async (e) => {
+  e.preventDefault();
 
-    if (!email || !/\S+@\S+\.\S+/.test(email)) {
-      setError('Please enter a valid email address.');
-      return;
+  if (!email || !/\S+@\S+\.\S+/.test(email)) {
+    setError('Please enter a valid email address.');
+    return;
+  }
+
+  try {
+    // ✅ Send the email to your API route
+    const res = await fetch('/api/save-email', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ email }),
+    });
+
+    if (!res.ok) {
+      throw new Error('Failed to save email.');
     }
 
-    //send this to an API here if needed
     setError('');
-    window.location.href = 'https://drive.google.com/file/d/14WxGsejZ5voyvTh6jUvWVnHVQKvL64Dx/view?usp=sharing'; // redirect to another page
-  };
+    // ✅ Redirect only after saving the email
+    window.location.href = 'https://drive.google.com/file/d/14WxGsejZ5voyvTh6jUvWVnHVQKvL64Dx/view?usp=sharing';
+  } catch (err) {
+    console.error(err);
+    setError('Something went wrong. Please try again later.');
+  }
+};
+
 
   return (
     <main className="flex items-center justify-center min-h-screen bg-blue-200 p-6">
