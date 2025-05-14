@@ -81,7 +81,7 @@ export default function Home() {
       </div>
         <div className="w-full h-60  bg-gray-950">
         </div>
-         <div className=" h-60 bg-gray-950 font-bold text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-110 transition text-center">
+         <div className=" h-60 bg-gray-950 text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-90 transition text-left">
             © 2025 MKSOU. Todos os direitos reservados.
             <br />
             Este e-book é um material informativo, com foco em autocuidado e bem-estar durante a menopausa. Ele não substitui orientação médica ou tratamento profissional.
@@ -97,7 +97,9 @@ export default function Home() {
             </a> 
              – Seu pagamento é 100% seguro.
         </div>
-      <div className = "h-20">
+        <div className="w-full h-30  bg-gray-950">
+        </div>
+      <div className = "h-20 text-left">
           <h1>Dúvidas, sugestões ou suporte: ecommercmkssouza@gmail.com
               Endereço: QI 15, CEP 72135-150
           </h1>
