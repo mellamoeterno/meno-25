@@ -41,10 +41,10 @@ export default function CollectEmailPage() {
 
 
   return (
-    <main className="flex items-center justify-center min-h-screen bg-blue-200 p-6">
+    <main className="flex items-center justify-center min-h-screen bg-gradient-to-r from-indigo-400 via-fuchsia-300 to-[#EC8C78] p-6">
       <form
         onSubmit={handleSubmit}
-        className="bg-gray-600 shadow-md rounded-2xl p-8 max-w-md w-full space-y-4"
+        className="bg-[#EC8C78] shadow-md rounded-2xl p-8 max-w-md w-full space-y-4"
       >
         <h1 className="text-2xl font-bold text-gray-800">Receba a sua amostra do E-book grátis pelo seu E-mail </h1>
         <input
@@ -57,7 +57,7 @@ export default function CollectEmailPage() {
         {error && <p className="text-red-500 text-sm">{error}</p>}
         <button
           type="submit"
-          className="w-full bg-blue-600 text-white font-semibold py-2 rounded-xl hover:bg-blue-700 transition"
+          className="w-full bg-indigo-400 text-white font-semibold py-2 rounded-xl hover:bg-indigo-500 transition"
         >
           enviar
         </button>

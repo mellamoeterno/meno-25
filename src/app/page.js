@@ -2,7 +2,6 @@
 
 import React from 'react';
 import Link from 'next/link';
-import Script from 'next/script';
 
 
 export default function Home() {
@@ -10,100 +9,60 @@ export default function Home() {
     <div className="w-full flex flex-col items-center justify-center">     
       {/* Images */}      
       <div>
-          <img src="/images/imageWoman1.jpg" className="w-full h-full object-cover" />
-          <img src="/images/e6.jpg" className="w-full h-full object-cover" />          
-          <img src="/images/e3.jpg" className="w-full h-full object-cover" />
-          <img src="/images/imageNewPhase3.jpg" className="w-full h-full object-cover" /> 
-          <div className= "h-40 flex items-center justify-center">
-            <Link href="collect">
-                <button className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-400 text-gray-800 font-bold text-lg px-6 py-3 rounded-lg shadow-md 
-                  hover:brightness-110 transition inline-block text-center">
-                  Quero meu E-BOOK GRÁTIS
-                </button>
-            </Link> 
-         </div>
-            <img src="/images/e4.jpg" className="w-full h-full object-cover" />          
-            <img src="/images/e5.jpg" className="w-full h-full object-cover" />          
-            <img src="/images/imageAlimentação2.jpg" className="w-full h-full object-cover" />     
-            <img src="/images/imageSet1.jpg" className="w-full h-full object-cover" />          
-            <img src="/images/imageSet3.jpg" className="w-full h-full object-cover" />
-         <div className="w-full h-30 flex items-center justify-center bg-black">
-        <button
-          className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-400 text-gray-800 font-bold text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-110 transition"
-          onClick={() => {
-            window.location.href = 'https://pay.kiwify.com.br/oIxIhMX';
-          }}
-        >
-          Quero meu E-book MÓDULO 1
-        </button>
-          </div>
-            <img src="/images/imageSet4.png" className="w-full h-full object-cover" />
-            <div className="w-full h-30 flex items-center justify-center bg-black">
-        <button
-          className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-400 text-gray-800 font-bold text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-110 transition"
-          onClick={() => {
-            window.location.href = 'https://pay.kiwify.com.br/oIxIhMX';
-          }}
-        >
-          Quero meu E-book MÓDULO 2
-        </button>
-           </div>                     
-      </div>          
-            {/* Images */}
-          <div>
-          <img src="/images/imageSet5.jpg" className="w-full h-full object-cover" />
-          <img src="/images/e2.jpg" className="w-full h-full object-cover" />
-          </div>      
-            {/* Image */}
-      <div>
-      <img src="/images/combo.jpg" className="w-full h-full object-cover" />
-       <div className="w-full h-30 flex items-center justify-center bg-fuchsia-300">
-        <button
-          className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-400 text-gray-800 font-bold text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-110 transition"
-          onClick={() => {
-            window.location.href = 'https://pay.kiwify.com.br/pAXiNvV';
-          }}
-        >
-          Quero meu combo premium
-        </button>
-      </div> 
-        <img src="/images/imageSet7.jpg" className="w-full h-full object-cover" />
-          <div className= "h-20 flex items-center justify-center">
-            <button
-                className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-400 text-gray-800 font-bold text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-110 transition"
-                onClick={() => {
-                  window.location.href = 'https://pay.kiwify.com.br/pAXiNvV';
-                }}
-              >
-                Comprar AGORA MEUS E-BOOKS
-              </button>
-          </div>
+          <img src="/images/img1.png" className="w-full h-full object-cover" />
+          <img src="/images/img2.png" className="w-full h-full object-cover" />          
+          <img src="/images/img3.png" className="w-full h-full object-cover" />
+          <img src="/images/img4.png" className="w-full h-full object-cover" /> 
+            <div className= "bg-[#262935] h-20 flex items-center justify-center">
+              <Link href="collect">
+                  <button className="bg-gradient-to-r from-indigo-400 via-fuchsia-300 to-[#EC8C78] text-gray-800 font-bold text-lg px-6 py-3 rounded-lg shadow-md 
+                    hover:brightness-110 transition inline-block text-center">
+                    Quero meu E-BOOK GRÁTIS
+                  </button>
+              </Link> 
+            </div>
+          <img src="/images/img5.png" className="w-full h-full object-cover" />          
+          <img src="/images/img6.png" className="w-full h-full object-cover" />          
+          <img src="/images/img7.png" className="w-full h-full object-cover" />
+                          
+        
+          <img src="/images/img8.png" className="w-full h-full object-cover" />
+            <div className="w-full h-20 flex items-center justify-center bg-[#262935]">
+          <button
+            className="bg-gradient-to-r from-indigo-400 via-fuchsia-300 to-[#EC8C78] text-gray-800 font-bold text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-110 transition"
+            onClick={() => {
+              window.location.href = 'https://pay.kiwify.com.br/oIxIhMX';
+            }}
+          >
+            Quero meu E-book MÓDULO 1
+          </button>
+            </div>                    
+      </div>             
+          <img src="/images/img9.png" className="w-full h-full object-cover" />
+            <div className="w-full h-20 flex items-center justify-center bg-[#262935]">
+          <button
+            className="bg-gradient-to-r from-indigo-400 via-fuchsia-300 to-[#EC8C78] text-gray-800 font-bold text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-110 transition"
+            onClick={() => {
+              window.location.href = 'https://pay.kiwify.com.br/oIxIhMX';
+            }}
+          >
+            Quero meu E-book MÓDULO 2
+          </button>
+          </div> 
+          <img src="/images/img10.png" className="w-full h-full object-cover" />
+            <div className="w-full h-20 flex items-center justify-center bg-[#262935]">
+          <button
+            className="bg-gradient-to-r from-indigo-400 via-fuchsia-300 to-[#EC8C78] text-gray-800 font-bold text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-110 transition"
+            onClick={() => {
+              window.location.href = 'https://pay.kiwify.com.br/pAXiNvV';
+            }}
+          >
+            Quero meu combo premium
+          </button>
+          </div> 
+      <div className="w-full h-60  bg-[#262935]">
       </div>
-        <div className="w-full h-60  bg-gray-950">
-        </div>
-         <div className=" h-60 bg-gray-950 text-lg px-6 py-3 rounded-lg shadow-md hover:brightness-90 transition text-left">
-            © 2025 MKSOU. Todos os direitos reservados.
-            <br />
-            Este e-book é um material informativo, com foco em autocuidado e bem-estar durante a menopausa. Ele não substitui orientação médica ou tratamento profissional.
-            <br />
-            Venda e entrega realizadas com segurança pela plataforma 
-            <a 
-              href="https://ajuda.kiwify.com.br/pt-br/article/o-que-e-a-kiwify-como-funciona-un717r/" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="text-blue-400 underline hover:text-blue-600"
-            >
-              {" "}Kiwify
-            </a> 
-             – Seu pagamento é 100% seguro.
-        </div>
-        <div className="w-full h-30  bg-gray-950">
-        </div>
-      <div className = "h-20 text-left">
-          <h1>Dúvidas, sugestões ou suporte: ecommercmkssouza@gmail.com
-              Endereço: QI 15, CEP 72135-150
-          </h1>
+        <img src="/images/img11.png" className="w-full h-full object-cover" />
       </div>
-    </div>
   );
 }
