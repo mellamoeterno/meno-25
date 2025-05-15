@@ -10,10 +10,7 @@ export default function Home() {
       {/* Images */}      
       <div>
           <img src="/images/img1.png" className="w-full h-full object-cover" />
-          <img src="/images/img2.png" className="w-full h-full object-cover" />          
-          <img src="/images/img3.png" className="w-full h-full object-cover" />
-          <img src="/images/img4.png" className="w-full h-full object-cover" /> 
-            <div className= "bg-[#262935] h-20 flex items-center justify-center">
+          <div className= "bg-[#262935] h-20 flex items-center justify-center">
               <Link href="collect">
                   <button className="bg-gradient-to-r from-indigo-400 via-fuchsia-300 to-[#EC8C78] text-gray-800 font-bold text-lg px-6 py-3 rounded-lg shadow-md 
                     hover:brightness-110 transition inline-block text-center">
@@ -21,11 +18,13 @@ export default function Home() {
                   </button>
               </Link> 
             </div>
+          <img src="/images/img2.png" className="w-full h-full object-cover" />          
+          <img src="/images/img3.png" className="w-full h-full object-cover" />
+          <img src="/images/img4.png" className="w-full h-full object-cover" /> 
+            
           <img src="/images/img5.png" className="w-full h-full object-cover" />          
           <img src="/images/img6.png" className="w-full h-full object-cover" />          
           <img src="/images/img7.png" className="w-full h-full object-cover" />
-                          
-        
           <img src="/images/img8.png" className="w-full h-full object-cover" />
             <div className="w-full h-20 flex items-center justify-center bg-[#262935]">
           <button
@@ -34,7 +33,7 @@ export default function Home() {
               window.location.href = 'https://pay.kiwify.com.br/oIxIhMX';
             }}
           >
-            Quero meu E-book MÓDULO 1
+            Quero meu E-book MÓDULO I
           </button>
             </div>                    
       </div>             
@@ -46,7 +45,7 @@ export default function Home() {
               window.location.href = 'https://pay.kiwify.com.br/oIxIhMX';
             }}
           >
-            Quero meu E-book MÓDULO 2
+            Quero meu E-book MÓDULO II
           </button>
           </div> 
           <img src="/images/img10.png" className="w-full h-full object-cover" />
