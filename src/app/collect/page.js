@@ -32,7 +32,7 @@ export default function CollectEmailPage() {
 
     setError('');
     // ✅ Redirect only after saving the email
-    window.location.href = 'https://drive.google.com/file/d/14WxGsejZ5voyvTh6jUvWVnHVQKvL64Dx/view?usp=sharing';
+    window.location.href = 'https://drive.google.com/file/d/19CxaGQsKwN-jv-O58H8d8TFWxkuuxySy/view?usp=sharing';
   } catch (err) {
     console.error(err);
     setError('Something went wrong. Please try again later.');
